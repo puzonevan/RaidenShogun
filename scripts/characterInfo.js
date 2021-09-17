@@ -7,16 +7,16 @@
 
 const character = {
 
-    name: "Ganyu", 
+    name: "Raiden Shogun", 
 
     materials: {
         stone: [
             [1, 9, 9, 6, 46],
-            "Jade Sliver", 
-            "Jade Fragment", 
-            "Jade Chunk", 
-            "Jade Gemstone", 
-            "Hoarfrost Core",
+            "Amethyst Sliver", 
+            "Amethyst Fragment", 
+            "Amethyst Chunk", 
+            "Amethyst Gemstone", 
+            "Storm Beads",
         ],
         collectable: [
             [18, 30, 36, 168],
