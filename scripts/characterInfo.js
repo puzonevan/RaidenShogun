@@ -21,20 +21,20 @@ const character = {
         collectable: [
             [18, 30, 36, 168],
             [18, 66, 93, 3],
-            "Whopperflower Nectar", 
-            "Shimmering Nectar", 
-            "Energy Nectar", 
-            "Qingxin",
+            "Old Handguard", 
+            "Kageuchi Handguard", 
+            "Famed Handguard", 
+            "Amakumo Fruit",
         ],
         book: [
             [9, 63, 114, 18],
-            "Teaching of Diligence",
-            "Guide to Diligence", 
-            "Philosophies of Diligence", 
+            "Teachings of Light",
+            "Guide to Light", 
+            "Philosophies of Light", 
         ],
         boss: [
             18,
-            "Shadow of the Warrior",
+            "Molten Moment",
         ],
         crown: [
             3,

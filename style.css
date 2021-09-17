@@ -137,6 +137,7 @@ video {
 
 .ganyu-splash{
     width: 70%;
+    margin: 3em 0em;
 }
 .ganyu-splash img{
     max-height: 90%;
