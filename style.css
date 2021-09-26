@@ -51,6 +51,10 @@ video {
     scroll-snap-align: start;
 }
 
+.art-section{
+    height: 120vh;
+    scroll-snap-align: start;
+}
 
 
 /* Opening/Titles Section */
@@ -388,7 +392,7 @@ video {
     width: 100%;
     opacity: 0;
     transition: .5s;
-    background: #28282b;
+    background: #1E0039;
     z-index: -1;
 }
 
@@ -413,12 +417,12 @@ video {
 
 .overlay-box h2{
     font-family: 'STIX Two Text', serif;
-    color: #27233e;
+    color: #1E0039;
     padding: 1.5em 0em;
 }
 
 .overlay-box p{
-    color: #000000;
+    color: #170F1A;
     font-weight: 400;
     font-size: 1em;
     width: 80%;
@@ -434,7 +438,7 @@ video {
     padding: .3em;
 }
 .overlay-box i:hover{
-    background-color: #f70d1a;
+    background-color: #B9BFFF;
     border: 1px solid black;
     border-radius: 3px;
     transition: .2s;
@@ -482,8 +486,8 @@ video {
 }
 
 .card h2{
-    color: #B9BFFF;
-    border-bottom: 2px solid #B9BFFF;
+    color: #1E0039;
+    border-bottom: 2px solid #1E0039;
     padding-bottom: .5em;
 }
 .card p{
