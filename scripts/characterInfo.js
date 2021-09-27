@@ -73,13 +73,13 @@ const character = {
                     substat: "Energy Recharge", 
                     description: "ATK increased by 28% of Energy Recharge over the base 100%. You can gain a maximum bonus of 80% ATK. \
                     Gain 30% Energy Recharge for 12s after using an Elemental Burst.",
-                    image: ""
+                    image: "../RaidenShogun/weapons/Weapon_Engulfing_Lightning.png"
                 },
                 {
                     name: "The Catch",
                     substat: "Energy Recharge", 
                     description: "Increases Elemental Burst DMG by 16% and Elemental Burst CRIT Rate by 6%.",
-                    image: ""
+                    image: "../RaidenShogun/weapons/Weapon_The_Catch.png"
                 }
             ],
             artifacts: [
@@ -89,19 +89,19 @@ const character = {
                     description: "<strong>(2)</strong> Energy Recharge +20% <br><br><strong>(4)</strong> \
                     Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can \
                     be obtained in this way",         
-                    image: ""
+                    image: "../RaidenShogun/weapons/Item_Magnificent_Tsuba.png"
                 },
                 {
                     name: "Emblem of Severed Fate", 
                     substat: "Atk% / Electro DMG / Crit DMG",
                     description: "<strong>(2)</strong> Energy Recharge +20%",
-                    image: ""
+                    image: "../RaidenShogun/weapons/Item_Magnificent_Tsuba.png"
                 },
                 {
                     name: "Thundering Fury", 
                     substat: "Atk% / Electro DMG / Crit DMG",
                     description: "<strong>(2)</strong> Electro DMG Bonus +15%",
-                    image: ""
+                    image: "../RaidenShogun/weapons/Item_Thunderbird's_Mercy.png"
                 }
             ]
         },
@@ -115,13 +115,13 @@ const character = {
                     substat: "Energy Recharge", 
                     description: "ATK increased by 28% of Energy Recharge over the base 100%. You can gain a maximum bonus of 80% ATK. \
                     Gain 30% Energy Recharge for 12s after using an Elemental Burst.",
-                    image: ""
+                    image: "../RaidenShogun/weapons/Weapon_Engulfing_Lightning.png"
                 },
                 {
                     name: "Prototype Starglitter",
                     substat: "Energy Recharge", 
                     description: "After using an Elemental Skill, increases Normal and Charged Attack DMG by 8% for 12s. Max 2 stacks.",
-                    image: ""
+                    image: "../RaidenShogun/weapons/Weapon_Prototype_Starglitter.png"
                 }
             ],
             artifacts: [
@@ -131,19 +131,19 @@ const character = {
                     description: "<strong>(2)</strong> Energy Recharge +20% <br><br><strong>(4)</strong> \
                     Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can \
                     be obtained in this way",         
-                    image: ""
+                    image: "../RaidenShogun/weapons/Item_Magnificent_Tsuba.png"
                 },
                 {
                     name: "Emblem of Severed Fate", 
                     substat: "Atk% / Electro DMG / Crit DMG",
                     description: "<strong>(2)</strong> Energy Recharge +20%",         
-                    image: ""
+                    image: "../RaidenShogun/weapons/Item_Magnificent_Tsuba.png"
                 },
                 {
-                    name: "Gladiator's Finale", 
+                    name: "Shimenawa's Resistance", 
                     substat: "Atk% / Electro DMG / Crit DMG",
                     description: "<strong>(2)</strong> ATK +18%",
-                    image: ""
+                    image: "../RaidenShogun/weapons/Item_Entangling_Bloom.png"
                 }
             ]
         }

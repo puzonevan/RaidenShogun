@@ -630,6 +630,9 @@ video {
         width: 75%;
         height: auto;
     }
+    .build h4, .build h5{
+        width: 60%;
+    }
     .build-section svg{
         display: none;
     }
