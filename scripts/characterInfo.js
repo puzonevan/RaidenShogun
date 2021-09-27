@@ -11,6 +11,24 @@ const character = {
 
     splash: "RaidenShogun/images/Character_Raiden_Shogun_Wish.png",
 
+    abilities: [
+        "RaidenShogun/combat/Talent_Origin.png", 
+        "RaidenShogun/combat/Talent_Transcendence_Baleful_Omen.png",
+        "RaidenShogun/combat/Talent_Secret_Art_Musou_Shinsetsu.png",
+        "RaidenShogun/combat/Talent_Wishes_Unnumbered.png",
+        "RaidenShogun/combat/Talent_Enlightened_One.png",
+        "RaidenShogun/combat/Talent_All-Preserver.png"
+    ],
+
+    constellations: [
+        "RaidenShogun/constellation/Constellation_Ominous_Inscription.png",
+        "RaidenShogun/constellation/Constellation_Steelbreaker.png",
+        "RaidenShogun/constellation/Constellation_Shinkage_Bygones.png",
+        "RaidenShogun/constellation/Constellation_Pledge_of_Propriety.png",
+        "RaidenShogun/constellation/Constellation_Shogun's_Descent.png",
+        "RaidenShogun/constellation/Constellation_Wishbearer.png"
+    ],
+
     materials: {
         stone: [
             [1, 9, 9, 6, 46],
@@ -261,6 +279,14 @@ document.getElementById("character-splash").firstElementChild.src = character.sp
         artifact.querySelector("#artifact-image").firstElementChild.alt = currentBuild.artifacts[index].name;
     }); 
 
+});
+
+// Change Abilities and Constellation Images 
+[...document.getElementById("abilities").children].forEach((ability, index) => {
+    ability.firstElementChild.src = character.abilities[index];
+});
+[...document.getElementById("constellations").children].forEach((constellation, index) => {
+    constellation.firstElementChild.src = character.constellations[index];
 });
 
 // Change Lore
