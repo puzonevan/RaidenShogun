@@ -9,6 +9,8 @@ const character = {
 
     name: "Raiden Shogun", 
 
+    splash: "RaidenShogun/images/Character_Raiden_Shogun_Wish.png",
+
     materials: {
         stone: [
             [1, 9, 9, 6, 46],
@@ -189,6 +191,8 @@ const character = {
 // Change Character Title 
 document.getElementById("character-name").innerHTML = character.name;
 
+// Change Character Splash in Materials
+document.getElementById("character-splash").firstElementChild.src = character.splash;
 
 // Change Talent and Ascension Materials 
 [...document.getElementsByClassName("stone")].forEach((stone, index) =>{
